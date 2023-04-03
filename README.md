@@ -1,6 +1,6 @@
 This project is a kind of small personal website highlighting different things that I do/want to share. They include coding project(s) fine art, bicyle frame building, my dog, and a couple photos of me looking "cool"
-website url:
-bh repo:
+website url: 
+bh repo: 
 
 
 

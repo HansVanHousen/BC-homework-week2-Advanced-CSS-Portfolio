@@ -1,0 +1,133 @@
+:root {
+    --light: #b8815a;
+    --dark:  #0e0906;
+    --blue:  #003edb;
+    --red:  #ee0000;
+}
+::selection {
+    background-color: var(--blue);
+    color: var(--red);
+  }
+html {
+    font-size: 66.6%;
+}
+/* hail satan. */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 2rem;
+    line-height: 1.25;
+    background-color: var(--light);
+    color: var(--dark);
+   
+}
+
+header1 {
+    font-size: 30px;
+    margin-bottom: 0%;
+    font-size: 2rem;
+    line-height: 1.25;
+    min-height: 200;
+}
+
+header {
+    padding: 0px;
+    text-align: left;
+    background: var(--dark);
+    color: var(--light);
+}
+header1 {
+    padding: 0px;
+    text-align: left;
+    background: var(--light);
+    color: var(--dark);
+}
+
+nav {
+    display: flex;
+    height: 200px;
+    padding: 20px;
+}
+
+.topics {
+    border:9px solid black;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: start;
+    justify-content: center;
+    font-size: 30px;
+    width: 100%;
+    gap: 20px;
+}
+
+.nerd > img {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 200px;
+}
+.cardless {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 200px;
+}
+/* cardless has its own box becuse i wanted to have the next four elements have a specific pattern, so i made this bigger rather then using a .card:first-child {
+    flex-basis: 50%; */
+
+.card:nth-child(even){
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.card:nth-child(odd){
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+/* these four inline are meant to have the appearance of the Black Flag bars*/
+
+.things{
+    font-size: 30px;
+    /* margin-left: 25px;
+    margin-top: -25%; */
+}
+.nerd > img {
+    width: 100%;
+    height: 100%;
+}
+
+.card >p {
+    text-align: center;
+}
+
+.card > img {
+width: 100%;
+}
+.cardless >p {
+    text-align: center;
+}
+
+.cardless > img {
+width: 75%;
+}
+footer {
+    display: flex;
+    justify-content:left;
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+    background: var(--light);
+    color: var(--dark);
+}
+@media (max-width: 900px) {
+    .card {background-color: red;}
+    
+}
