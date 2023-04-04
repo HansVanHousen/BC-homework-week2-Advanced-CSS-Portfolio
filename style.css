@@ -3,6 +3,8 @@
     --dark:  #0e0906;
     --blue:  #003edb;
     --red:  #ee0000;
+    --purp:  #7e0849;
+    --blub:  #4432cb;
 }
 ::selection {
     background-color: var(--blue);
@@ -85,8 +87,8 @@ nav {
     flex-basis: 50%; */
 
 .card:nth-child(even){
-margin-top: 30px;
-margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .card:nth-child(odd){
     margin-top: 10px;
@@ -109,14 +111,14 @@ margin-bottom: 10px;
 }
 
 .card > img {
-width: 100%;
+    width: 100%;
 }
 .cardless >p {
     text-align: center;
 }
 
 .cardless > img {
-width: 75%;
+    width: 75%;
 }
 footer {
     display: flex;
@@ -127,7 +129,13 @@ footer {
     background: var(--light);
     color: var(--dark);
 }
-@media (max-width: 900px) {
-    .card {background-color: red;}
+@media (max-width: 768px) {
+    .card {background-color: var(--blub);}
+    .cardless {background-color: var(--blub);}
+    
+}
+@media (max-width: 480px) {
+    .card {background-color: var(--purp);}
+    .cardless {background-color: var(--purp);}
     
 }

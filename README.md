@@ -25,3 +25,6 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+![screen shot of finished page](assets/images/code/Screen%20Shot%202023-04-03%20at%2015.14.23.png "screenshot #1")
+![screen shot of finished page](assets/images/code/Screen%20Shot%202023-04-03%20at%2015.14.38.png "Screenshot #2") 
